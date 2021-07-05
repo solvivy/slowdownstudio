@@ -1,0 +1,12 @@
+
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #585858;
+    font-family: 'Jost', sans-serif;
+}
+img{display: block; border: 0;}
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: #fff;
+    color: #585858;
+}

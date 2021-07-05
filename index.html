@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow Down Studio</title>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/pc.css" rel="stylesheet" type="text/css">
+    <link href="css/tab.css" rel="stylesheet" type="text/css">
+    <link href="css/mobile.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/move.js"></script>
+
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- header start! -->
+        <header>
+            <div class="container">
+                <nav class="up_menu">
+                    <ul class="login_wrap">
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">JOIN</a></li>
+                        <li><a href="#">CART
+                            <span class="num_cont">0</span>
+                        </a></li>
+                        <li><a href="#">MY PAGE</a></li>
+                        <li>
+                            <div id="search_icon"><img src="img/search.png" alt="돋보기 아이콘"></div>
+                            <div id="find_box_wrap">
+                                <div class="find_box">
+                                    <div class="find_box_input">
+                                        <input type="text" id="input_find" placeholder="Search...">
+                                    </div>
+                                    <div class="find_box_go">GO</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="down_menu">
+                    <button id="ham_btn"></button>
+                    <ul class="menu_wrap">
+                        <li class="main_menu"><a href="#">BRANDS</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">SLOWDOWN STUDIO</a></li>
+                                <li><a href="#">AYKASA</a></li>
+                                <li><a href="#">BAGGU</a></li>
+                                <li><a href="#">SUBOTA PEARL</a></li>
+                                <li><a href="#">FOUR EYES CERAMICS</a></li>
+                                <li><a href="#">SOPHIE LOU JACOBSEN</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">TEXTILES</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">ALL TEXTILES</a></li>
+                                <li><a href="#">WOVEN BLANKETS</a></li>
+                                <li><a href="#">KNIT BLANKETS</a></li>
+                                <li><a href="#">RUGS</a></li>
+                                <li><a href="#">SCARVES</a></li>
+                                <li><a href="#">KITCHEN TOWELS</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">OBJECTS</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">ALL OBJECTS</a></li>
+                                <li><a href="#">PLANTERS & VASES</a></li>
+                                <li><a href="#">TABLETOP</a></li>
+                                <li><a href="#">CANDLES & SCENTS</a></li>
+                                <li><a href="#">BATH & BODY</a></li>
+                                <li><a href="#">PUZZLES & GAMES</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">KIDS</a></li>
+                    </ul>
+
+                    <div id="logo"><a href="#"></a></div>
+
+                    <ul class="menu_wrap" id="right_menu_wrap">
+                        <li class="main_menu"><a href="#">ACCESSORIES</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">ALL ACCESSORIES</a></li>
+                                <li><a href="#">BAGS & WALLETS</a></li>
+                                <li><a href="#">JEWELRY</a></li>
+                                <li><a href="#">HAIR</a></li>
+                                <li><a href="#">SCARVES</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">STATIONERY</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">ALL STATIONERY</a></li>
+                                <li><a href="#">CALENDARS</a></li>
+                                <li><a href="#">NOTEBOOKS</a></li>
+                                <li><a href="#">GIFT WRAP & CARDS</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">ART PRINTS</a></li>
+                        
+                    </ul>
+
+                    
+                </nav>
+            </div>
+        </header>
+
+        <!-- sec1 start! -->
+        <section id="sec1">
+            <div class="container">
+                <div id="slide_img_wrap">
+                    <img src="img/sec1_2.jpg" alt="아트프린트"/>
+                    <img src="img/sec1_4.jpg" alt="퍼즐"/>
+                    <img src="img/sec1_1.jpg" alt="침대위러그"/>
+                    <img src="img/sec1_3.jpg" alt="키즈"/>
+                </div>
+
+                <div id="m_slide_wrap">
+                    <img src="img/m_slide_4.jpg" alt="아트프린트"/>
+                    <img src="img/m_slide_3.jpg" alt="퍼즐"/>
+                    <img src="img/m_slide_2.jpg" alt="kids"/>
+                    <img src="img/m_slide_1.jpg" alt="러그"/>
+                </div>
+
+                <div id="bar_wrap">
+                    <ul >
+                        <li class="slide_bar btn_on"></li>
+                        <li class="slide_bar"></li>
+                        <li class="slide_bar"></li>
+                        <li class="slide_bar"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec2 start! -->
+        <section id="sec2">
+            <div class="container">
+                <div class="text_box">
+                    <span>SLOWDOWN STUDIO</span>
+                    <p>
+                        Slowdown Studio is a modern lifestyle brand that collaborates with artists from across the globe. <br/>
+                        The result is a collection of living, breathing works of art that are both functional and beautiful.
+                    </p>
+                </div>
+
+                <div class="sec2_img_box">
+                    <div class="con" id="con1">
+                        <img src="img/con1.jpg" alt="러그"/>
+                    </div>
+                    <div class="con" id="con2">
+                        <img src="img/con2.jpg" alt="rug_interior" />
+                    </div>
+                </div>
+                <div class="sec2_img_box">
+                    <div class="con_wrap" id="con3">
+                        <img src="img/con3.jpg" alt="black_rug" />
+                    </div>
+                    <div class="con_wrap" id="right_con">
+                        <div class="con" id="con4">
+                            <p>Free international shipping <br/>
+                            for orders over $400</p>
+                            <img src="img/con4.jpg" alt="banner"/>
+                        </div>
+                        <div class="con" id="con5">
+                            <img src="img/con5.jpg" alt="blue_rug" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="m_sec2_img_wrap">
+                    <div class="m_con">
+                        <img src="img/m_sec2_1.jpg" alt="러그든사람" />
+                    </div>
+                    <div class="m_con">
+                        <img src="img/m_sec2_2.jpg" alt="하늘색러그" />
+                    </div>
+                    <div class="m_con">
+                        <img src="img/m_sec2_3.jpg" alt="검정담요" />
+                    </div>
+                    <div class="m_con">
+                        <img src="img/m_sec2_4.jpg" alt="하늘색러그" />
+                    </div>
+                    <div class="m_con" id="m_sec2_banner">
+                        <img src="img/m_sec2_5.jpg" alt="banner" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec3 start! -->
+        <section id="sec3">
+            <div class="container" id="pc_sec3">
+                <p>SHOP</p>
+
+                <ul id="bg_box">
+                    <li><a href="#">Shop Objects</a>
+                    </li>
+                    <li><a href="#">Shop Rugs</a></li>
+                    <li><a href="#">Shop Accessories</a></li>
+                </ul>
+
+                <ul id="upper_box">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div id="tab_sec3">
+                <img src="img/sec3_bg.jpg" alt="" />
+            </div>
+
+            <div id="m_sec3">
+                <div class="container swiper-container" id="m_sec3">
+                    <p>SHOP</p>
+
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="m_bg_box">
+                                    <div class="m_img_box">
+                                        <img src="img/m_sec3_1.jpg" alt="오브젝트인테리어"/>
+                                    </div>
+                                    <p>Shop Objects</p>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="m_bg_box">
+                                    <div class="m_img_box">
+                                        <img src="img/m_sec3_2.jpg" alt="러그인테리어"/>
+                                    </div>
+                                    <p>Shop Rugs</p>
+                                </div>                            
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="m_bg_box">
+                                    <div class="m_img_box">
+                                        <img src="img/m_sec3_3.jpg" alt="에코백"/>
+                                    </div>
+                                    <p>Shop Accessories</p>
+                                </div>                            
+                            </li>
+                        </ul>
+                       <div class="swiper-pagination"></div>
+                </div>
+                 
+            </div>
+
+            <script>
+                var swiper = new Swiper('.swiper-container',{
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+
+        </section>
+
+        <!-- full_banner start! -->
+        <section id="full_banner">
+            <div id="black_box">
+                <div class="container">
+                    <span>Become a Member</span>
+                    <p>Let’s keep in touch. <br/>
+                        Become a member and save on regular purchases!
+                    </p>
+                    <div id="banner_btn">LEARN MORE</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec4 start! -->
+        <section id="sec4">
+            <div class="container">
+                <div class="sec4_box" id="sec4_top_box">
+                    <p>FOLLOW US</p>
+                    <div class="img_bound swiper-container" id="pc_insta_sec">
+                        <ul class="img_wrap swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="img/insta1.jpg" alt="lighter"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta2.jpg" alt="camera"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta3.jpg" alt="vase"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta4.jpg" alt="glassware"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta5.jpg" alt="yellow_goods"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta6.jpg" alt="scarves"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta7.jpg" alt="pink_interior"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta8.jpg" alt="glassware2"/>
+                            </li>
+                        </ul>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <script>
+                        var swiper = new Swiper("#pc_insta_sec", {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                            loop: true,
+                            navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                            },
+                        });
+                    </script>
+
+                    <div class="img_bound swiper-container" id="tab_insta_sec">
+                        <ul class="img_wrap swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="img/insta1.jpg" alt="lighter"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta2.jpg" alt="camera"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta3.jpg" alt="vase"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta4.jpg" alt="glassware"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta5.jpg" alt="yellow_goods"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta6.jpg" alt="scarves"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta7.jpg" alt="pink_interior"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta8.jpg" alt="glassware2"/>
+                            </li>
+                        </ul>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <script>
+                    var swiper = new Swiper("#tab_insta_sec", {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                        loop: true,
+                        navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                        },
+                    });
+                    </script>
+
+                    <div class="img_bound swiper-container" id="m_insta_sec">
+                        <ul class="img_wrap swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="img/insta1.jpg" alt="lighter"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta2.jpg" alt="camera"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta3.jpg" alt="vase"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta4.jpg" alt="glassware"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta5.jpg" alt="yellow_goods"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta6.jpg" alt="scarves"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta7.jpg" alt="pink_interior"/>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/insta8.jpg" alt="glassware2"/>
+                            </li>
+                        </ul>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                        <script>
+                            var swiper = new Swiper("#m_insta_sec", {
+                                slidesPerView: 1,
+                                loop: true,
+                                navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                                },
+                            });
+                        </script>
+
+                    </div>
+
+                </div>
+
+                <div class="sec4_box" id="sec4_bottom_box">
+                    <p>AS FEATURED ON</p>
+                    <ul id="magazine_wrap">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer start! -->
+        <footer>
+            <div class="container" >
+                <div class="f_box">
+                    <span>CONTACT US</span>
+                    <p>1980 Lincoln Ave<br/>
+                        Pasadena CA 91103
+                    </p>
+                    <p>
+                        Online shop or order enquiries:<br/>
+                        orders@slowdownstudio.com<br/>
+                        Wholesale enquiries:<br/>
+                        wholesale@slowdownstudio.com<br/>
+                        General enquiries:<br/>
+                        hello@slowdownstudio.com
+                    </p>
+                </div>
+                <div class="f_box">
+                    <span>INFO</span>
+                    <ul id="f_info">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Stockists</a></li>
+                        <li><a href="#">Interviews</a></li>
+                        <li><a href="#">Work With Us!</a></li>
+                        <li><a href="#">How to Hang A Blanket</a></li>
+                        <li><a href="#">Listen To Our Mixtape</a></li>
+                        <li><a href="#">Shipping / Returns</a></li>
+                        <li><a href="#">Privacy Policy / Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="f_box" id="f_right_box">
+
+                    <p>Sign up for our newsletter and get 10% off.</p>
+                    <div class="input_wrap">
+                        <input type="email" placeholder="Your Email_">
+                        <button class="f_arrow_btn"></button>
+                    </div>
+
+                    <div id="sns_wrap">
+                        <div class="sns">
+                            <a href="#">
+                                <svg id="facebook"></svg>
+                                Facebook
+                            </a>
+                        </div>
+                        <div class="sns">
+                            <a href="#">
+                                <svg id="insta"></svg>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- to_top btn -->
+        <div id="to_top_btn">
+            <img src="img/top_arrow.png" alt="top_arrow"/>
+            <br/>TOP</div>
+
+        <!-- 숨김메뉴 -->
+        <div id="hidden_menu_wrap">
+            <div id="hidden_menu_box">
+                <div id="hidden_menu_btn">
+                    <button>X</button>
+                </div>
+
+                <ul id="hidden_menu">
+                    <li><a href="#">BRANDS</a>
+                        <ul class="hidden_sub_menu" id="hidden_sub1">
+                            <li><a href="#">SLOWDOWN STUDIO</a></li>
+                            <li><a href="#">AYKASA</a></li>
+                            <li><a href="#">BAGGU</a></li>
+                            <li><a href="#">SUBOTA PEARL</a></li>
+                            <li><a href="#">FOUR EYES CERAMICS</a></li>
+                            <li><a href="#">SOPHIE LOU JACOBSEN</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">TEXTILES</a>
+                        <ul class="hidden_sub_menu" id="hidden_sub2">
+                            <li><a href="#">ALL TEXTILES</a></li>
+                            <li><a href="#">WOVEN BLANKETS</a></li>
+                            <li><a href="#">KNIT BLANKETS</a></li>
+                            <li><a href="#">RUGS</a></li>
+                            <li><a href="#">SCARVES</a></li>
+                            <li><a href="#">KITCHEN TOWELS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">OBJECTS</a>
+                        <ul class="hidden_sub_menu" id="hidden_sub3">
+                            <li><a href="#">ALL OBJECTS</a></li>
+                            <li><a href="#">PLANTERS & VASES</a></li>
+                            <li><a href="#">TABLETOP</a></li>
+                            <li><a href="#">CANDLES & SCENTS</a></li>
+                            <li><a href="#">BATH & BODY</a></li>
+                            <li><a href="#">PUZZLES & GAMES</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">KIDS</a></li>
+
+                    <li><a href="#">ACCESSORIES</a>
+                        <ul class="hidden_sub_menu" id="hidden_sub5">
+                            <li><a href="#">ALL ACCESSORIES</a></li>
+                            <li><a href="#">BAGS & WALLETS</a></li>
+                            <li><a href="#">JEWELRY</a></li>
+                            <li><a href="#">HAIR</a></li>
+                            <li><a href="#">SCARVES</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">STATIONERY</a>
+                        <ul class="hidden_sub_menu" id="hidden_sub6">
+                            <li><a href="#">ALL STATIONERY</a></li>
+                            <li><a href="#">CALENDARS</a></li>
+                            <li><a href="#">NOTEBOOKS</a></li>
+                            <li><a href="#">GIFT WRAP & CARDS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">ART PRINTS</a></li>
+                </ul>
+
+                <div id="hidden_login_box">
+                    <div class="login">LOGIN</div>
+                    <div class="login shake-top">JOIN</div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+   
+</body>
+</html>
